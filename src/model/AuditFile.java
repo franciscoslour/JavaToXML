@@ -1,5 +1,8 @@
 package model;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class AuditFile {
 	Header HeaderObject;
 	MasterFiles MasterFilesObject;

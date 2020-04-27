@@ -3,23 +3,24 @@ package model;
 import java.util.ArrayList;
 
 public class PurchaseInvoices {
-	private String NumberOfEntries;
-	ArrayList<Object> Invoice = new ArrayList<Object>();
 
-	public String getNumberOfEntries() {
-		return NumberOfEntries;
-	}
+    private String NumberOfEntries;
+    ArrayList<Invoice> Invoices = new ArrayList<Invoice>();
 
-	public void setNumberOfEntries(String numberOfEntries) {
-		NumberOfEntries = numberOfEntries;
-	}
+    public String getNumberOfEntries() {
+        return NumberOfEntries;
+    }
 
-	public ArrayList<Object> getInvoice() {
-		return Invoice;
-	}
+    public void setNumberOfEntries(String numberOfEntries) {
+        NumberOfEntries = numberOfEntries;
+    }
 
-	public void setInvoice(ArrayList<Object> invoice) {
-		Invoice = invoice;
-	}
+    public ArrayList<Invoice> getInvoices() {
+        return Invoices;
+    }
+
+    public void setInvoices(ArrayList<Invoice> Invoices) {
+        this.Invoices = Invoices;
+    }
 
 }
