@@ -45,11 +45,12 @@ public class Main {
             header.setTaxAccountingBasis("A");
             header.setCompanyName("AGT");
             header.setBusinessName("Mais AGT");
-                header.setCompanyAddress(new CompanyAddress());
-                header.getCompanyAddress().setAddressDetail("Avenida 4 de Fevereiro");
-                header.getCompanyAddress().setCity("Luanda");
-                header.getCompanyAddress().setPostalCode("000");
-                header.getCompanyAddress().setCountry("AO");
+            CompanyAddress companyAddress = new CompanyAddress();
+                companyAddress.setAddressDetail("Avenida 4 de Fevereiro");
+                companyAddress.setCity("Luanda");
+                companyAddress.setPostalCode("000");
+                companyAddress.setCountry("AO");
+                header.setCompanyAddress(companyAddress);
             header.setFiscalYear("2019");
             header.setStartDate("2019-01-01");
             header.setEndDate("2019-12-31");

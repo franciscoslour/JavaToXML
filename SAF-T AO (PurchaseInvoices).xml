@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<auditFile>
+    <header>
+        <AuditFileVersion>1.01_01</AuditFileVersion>
+        <CompanyID>1428854 510310500</CompanyID>
+        <TaxRegistrationNumber>5103105000</TaxRegistrationNumber>
+        <TaxAccountingBasis>A</TaxAccountingBasis>
+        <CompanyName>AGT</CompanyName>
+        <BusinessName>Mais AGT</BusinessName>
+        <CompanyAddress>
+            <AddressDetail>Avenida 4 de Fevereiro</AddressDetail>
+            <City>Luanda</City>
+            <PostalCode>000</PostalCode>
+            <Country>AO</Country>
+        </CompanyAddress>
+        <FiscalYear>2019</FiscalYear>
+        <StartDate>2019-01-01</StartDate>
+        <EndDate>2019-12-31</EndDate>
+        <CurrencyCode>AOA</CurrencyCode>
+        <DateCreated>2019-05-10</DateCreated>
+        <TaxEntity>Global</TaxEntity>
+        <ProductCompanyTaxID>54173354</ProductCompanyTaxID>
+        <SoftwareValidationNumber>0/AGT/2020</SoftwareValidationNumber>
+        <ProductID>AGT/AGT</ProductID>
+        <ProductVersion>01.01.20</ProductVersion>
+    </header>
+    <masterFiles>
+        <supplier>
+            <accountID>Desconhecido</accountID>
+            <billingAddress>
+                <addressDetail>Morada do Cliente</addressDetail>
+                <city>Luanda</city>
+                <country>AO</country>
+            </billingAddress>
+            <companyName>FORNECEDOR EXEMPLO</companyName>
+            <selfBillingIndicator>0</selfBillingIndicator>
+            <shipFromAddress>
+                <addressDetail>Morada do Cliente</addressDetail>
+                <city>Luanda</city>
+                <country>AO</country>
+            </shipFromAddress>
+            <supplierID>ADM190</supplierID>
+            <supplierTaxID>1234567890</supplierTaxID>
+        </supplier>
+        <taxTable>
+            <taxTableEntries>
+                <description>Normal</description>
+                <taxCode>NOR</taxCode>
+                <taxCountryRegion>AO</taxCountryRegion>
+                <taxPercentage>14.000000</taxPercentage>
+                <taxType>IVA</taxType>
+            </taxTableEntries>
+            <taxTableEntries>
+                <description>IVA Isento</description>
+                <taxCode>ISE</taxCode>
+                <taxCountryRegion>AO</taxCountryRegion>
+                <taxPercentage>0.00</taxPercentage>
+                <taxType>IVA</taxType>
+            </taxTableEntries>
+        </taxTable>
+    </masterFiles>
+    <sourceDocuments>
+        <purchaseInvoices>
+            <invoices>
+                <documentTotals>
+                    <currency>
+                        <currencyAmount>482.27</currencyAmount>
+                        <currencyCode>USD</currencyCode>
+                        <exchangeRate>2077.98</exchangeRate>
+                    </currency>
+                    <deductibles>
+                        <deductibleAmount>28000.00</deductibleAmount>
+                        <deductiblePercentage>100.00</deductiblePercentage>
+                        <deductibleTaxType>OBC</deductibleTaxType>
+                        <taxBase>200000.00</taxBase>
+                    </deductibles>
+                    <deductibles>
+                        <deductibleAmount>14000.00</deductibleAmount>
+                        <deductiblePercentage>100.00</deductiblePercentage>
+                        <deductibleTaxType>INV</deductibleTaxType>
+                        <taxBase>100000.00</taxBase>
+                    </deductibles>
+                    <grossTotal>342000.00</grossTotal>
+                    <netTotal>300000.00</netTotal>
+                    <taxPayable>84000.00</taxPayable>
+                </documentTotals>
+                <hash>ZPi2</hash>
+                <invoiceDate>2019-06-09</invoiceDate>
+                <invoiceNo>FT 2019A1/12360</invoiceNo>
+                <period>5</period>
+                <purchaseType>FT</purchaseType>
+                <sourceID>ADM190</sourceID>
+                <withholdingTax>
+                    <withholdingTaxDescription>50.00</withholdingTaxDescription>
+                    <withholdingTaxType>21000.00</withholdingTaxType>
+                </withholdingTax>
+            </invoices>
+            <invoices>
+                <documentTotals>
+                    <deductibles>
+                        <deductibleAmount>0.00</deductibleAmount>
+                        <deductiblePercentage>0.00</deductiblePercentage>
+                        <deductibleTaxType>OBC</deductibleTaxType>
+                        <taxBase>200000.00</taxBase>
+                    </deductibles>
+                    <grossTotal>342000.00</grossTotal>
+                    <netTotal>300000.00</netTotal>
+                    <taxPayable>84000.00</taxPayable>
+                </documentTotals>
+                <hash>ZPi2</hash>
+                <invoiceDate>2019-06-09</invoiceDate>
+                <invoiceNo>FT 2019A1/12361</invoiceNo>
+                <period>5</period>
+                <purchaseType>FR</purchaseType>
+                <sourceID>ADM190</sourceID>
+                <withholdingTax>
+                    <withholdingTaxDescription>0.00</withholdingTaxDescription>
+                    <withholdingTaxType>0.00</withholdingTaxType>
+                </withholdingTax>
+            </invoices>
+            <numberOfEntries>1</numberOfEntries>
+        </purchaseInvoices>
+    </sourceDocuments>
+</auditFile>
