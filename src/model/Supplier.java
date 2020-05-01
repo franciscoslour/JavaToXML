@@ -1,71 +1,75 @@
 package model;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = {"SupplierID","AccountID","SupplierTaxID","CompanyName","BillingAddress","ShipFromAddress","SelfBillingIndicator"})
 public class Supplier {
-	private String SupplierID;
-	private String AccountID;
-	private String SupplierTaxID;
-	private String CompanyName;
-	BillingAddress BillingAddressObject;
-	ShipFromAddress ShipFromAddressObject;
-	private String SelfBillingIndicator;
 
-	// Getter Methods
+    private String SupplierID;
+    private String AccountID;
+    private String SupplierTaxID;
+    private String CompanyName;
+    private BillingAddress BillingAddress;
+    private ShipFromAddress ShipFromAddress;
+    private String SelfBillingIndicator;
 
-	public String getSupplierID() {
-		return SupplierID;
-	}
+    public String getSupplierID() {
+        return SupplierID;
+    }
 
-	public String getAccountID() {
-		return AccountID;
-	}
+    public void setSupplierID(String SupplierID) {
+        this.SupplierID = SupplierID;
+    }
 
-	public String getSupplierTaxID() {
-		return SupplierTaxID;
-	}
+    public String getAccountID() {
+        return AccountID;
+    }
 
-	public String getCompanyName() {
-		return CompanyName;
-	}
+    public void setAccountID(String AccountID) {
+        this.AccountID = AccountID;
+    }
 
-	public BillingAddress getBillingAddress() {
-		return BillingAddressObject;
-	}
+    public String getSupplierTaxID() {
+        return SupplierTaxID;
+    }
 
-	public ShipFromAddress getShipFromAddress() {
-		return ShipFromAddressObject;
-	}
+    public void setSupplierTaxID(String SupplierTaxID) {
+        this.SupplierTaxID = SupplierTaxID;
+    }
 
-	public String getSelfBillingIndicator() {
-		return SelfBillingIndicator;
-	}
+    public String getCompanyName() {
+        return CompanyName;
+    }
 
-	// Setter Methods
+    public void setCompanyName(String CompanyName) {
+        this.CompanyName = CompanyName;
+    }
 
-	public void setSupplierID(String SupplierID) {
-		this.SupplierID = SupplierID;
-	}
+    public BillingAddress getBillingAddress() {
+        return BillingAddress;
+    }
 
-	public void setAccountID(String AccountID) {
-		this.AccountID = AccountID;
-	}
+    public void setBillingAddress(BillingAddress BillingAddress) {
+        this.BillingAddress = BillingAddress;
+    }
 
-	public void setSupplierTaxID(String SupplierTaxID) {
-		this.SupplierTaxID = SupplierTaxID;
-	}
+    public ShipFromAddress getShipFromAddress() {
+        return ShipFromAddress;
+    }
 
-	public void setCompanyName(String CompanyName) {
-		this.CompanyName = CompanyName;
-	}
+    public void setShipFromAddress(ShipFromAddress ShipFromAddress) {
+        this.ShipFromAddress = ShipFromAddress;
+    }
 
-	public void setBillingAddress(BillingAddress BillingAddressObject) {
-		this.BillingAddressObject = BillingAddressObject;
-	}
+    public String getSelfBillingIndicator() {
+        return SelfBillingIndicator;
+    }
 
-	public void setShipFromAddress(ShipFromAddress ShipFromAddressObject) {
-		this.ShipFromAddressObject = ShipFromAddressObject;
-	}
+    public void setSelfBillingIndicator(String SelfBillingIndicator) {
+        this.SelfBillingIndicator = SelfBillingIndicator;
+    }
 
-	public void setSelfBillingIndicator(String SelfBillingIndicator) {
-		this.SelfBillingIndicator = SelfBillingIndicator;
-	}
 }
