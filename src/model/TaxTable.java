@@ -1,16 +1,17 @@
 package model;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class TaxTable {
 
-    ArrayList<TaxTableEntry> TaxTableEntries = new ArrayList<TaxTableEntry>();
+    List<TaxTableEntry> TaxTableEntries = new ArrayList<>();
 
-    public ArrayList<TaxTableEntry> getTaxTableEntries() {
+    public List<TaxTableEntry> getTaxTableEntries() {
         return TaxTableEntries;
     }
 
-    public void setTaxTableEntries(ArrayList<TaxTableEntry> TaxTableEntries) {
+    public void setTaxTableEntries(List<TaxTableEntry> TaxTableEntries) {
         this.TaxTableEntries = TaxTableEntries;
     }
 

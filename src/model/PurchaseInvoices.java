@@ -1,11 +1,12 @@
 package model;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class PurchaseInvoices {
 
     private String NumberOfEntries;
-    ArrayList<Invoice> Invoices = new ArrayList<Invoice>();
+    List<Invoice> Invoices = new ArrayList<Invoice>();
 
     public String getNumberOfEntries() {
         return NumberOfEntries;
@@ -15,11 +16,11 @@ public class PurchaseInvoices {
         NumberOfEntries = numberOfEntries;
     }
 
-    public ArrayList<Invoice> getInvoices() {
+    public List<Invoice> getInvoices() {
         return Invoices;
     }
 
-    public void setInvoices(ArrayList<Invoice> Invoices) {
+    public void setInvoices(List<Invoice> Invoices) {
         this.Invoices = Invoices;
     }
 

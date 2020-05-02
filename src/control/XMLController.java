@@ -6,8 +6,6 @@
 package control;
 
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.StringWriter;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
